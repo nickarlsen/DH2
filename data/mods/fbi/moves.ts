@@ -806,6 +806,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		target: "normal",
 		type: "Bug",
 		contestType: "Beautiful",
+		gen: 3,
 	},
 	bugbite: {
 		num: 450,
@@ -831,6 +832,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		target: "normal",
 		type: "Bug",
 		contestType: "Cute",
+		gen: 3,
 	},
 	drillrun: {
 		num: 529,
@@ -846,6 +848,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		target: "normal",
 		type: "Ground",
 		contestType: "Tough",
+		gen: 3,
 	},
 	moonblast: {
 		num: 585,
@@ -865,6 +868,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		target: "normal",
 		type: "Fairy",
 		contestType: "Beautiful",
+		gen: 3,
 	},
 	energyball: {
 		num: 412,
@@ -884,6 +888,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		target: "normal",
 		type: "Grass",
 		contestType: "Beautiful",
+		gen: 3,
 	},
 	gunkshot: {
 		num: 441,
@@ -901,6 +906,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		target: "normal",
 		type: "Poison",
 		contestType: "Tough",
+		gen: 3,
 	},
 	fairywind: {
 		num: 584,
@@ -915,6 +921,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		target: "normal",
 		type: "Fairy",
 		contestType: "Beautiful",
+		gen: 3,
 	},
 	shadowclaw: {
 		num: 421,
@@ -930,6 +937,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		target: "normal",
 		type: "Ghost",
 		contestType: "Cool",
+		gen: 3,
 	},
 	playrough: {
 		num: 583,
@@ -949,5 +957,6 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		target: "normal",
 		type: "Fairy",
 		contestType: "Cute",
+		gen: 3,
 	},
 };

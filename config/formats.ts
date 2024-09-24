@@ -4820,6 +4820,7 @@ export const Formats: FormatList = [
 		name: "[Gen 3] FBIRERED V1",
 		mod: 'fbi',
 		searchShow: false,
+		gen: 3,
 		ruleset: ['Standard'],
 		banlist: [
 			'Chikorita', 'Bayleef', 'Meganium', 'Cyndaquil', 'Quilava', 'Typhlosion',
