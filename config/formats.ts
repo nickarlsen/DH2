@@ -4020,115 +4020,115 @@ export const Formats: FormatList = [
 		ruleset: ['Standard'],
 		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass'],
 	},
-	{
-		name: "[Gen 9] LC",
-		mod: 'gen9',
-		ruleset: ['Little Cup', 'Standard'],
-		banlist: [
-			'Aipom', 'Basculin-White-Striped', 'Cutiefly', 'Diglett-Base', 'Dunsparce', 'Duraludon', 'Flittle', 'Gastly', 'Girafarig', 'Gligar',
-			'Meditite', 'Misdreavus', 'Murkrow', 'Porygon', 'Qwilfish-Hisui', 'Rufflet', 'Scraggy', 'Scyther', 'Sneasel', 'Sneasel-Hisui',
-			'Snivy', 'Stantler', 'Vulpix', 'Vulpix-Alola', 'Yanma', 'Moody', 'Baton Pass', 'Sticky Web',
-		],
-	},
-	{
-		name: "[Gen 9] Anything Goes",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3710911/">AG Metagame Discussion</a>`,
-		],
+	// {
+	// 	name: "[Gen 9] LC",
+	// 	mod: 'gen9',
+	// 	ruleset: ['Little Cup', 'Standard'],
+	// 	banlist: [
+	// 		'Aipom', 'Basculin-White-Striped', 'Cutiefly', 'Diglett-Base', 'Dunsparce', 'Duraludon', 'Flittle', 'Gastly', 'Girafarig', 'Gligar',
+	// 		'Meditite', 'Misdreavus', 'Murkrow', 'Porygon', 'Qwilfish-Hisui', 'Rufflet', 'Scraggy', 'Scyther', 'Sneasel', 'Sneasel-Hisui',
+	// 		'Snivy', 'Stantler', 'Vulpix', 'Vulpix-Alola', 'Yanma', 'Moody', 'Baton Pass', 'Sticky Web',
+	// 	],
+	// },
+	// {
+	// 	name: "[Gen 9] Anything Goes",
+	// 	threads: [
+	// 		`&bullet; <a href="https://www.smogon.com/forums/threads/3710911/">AG Metagame Discussion</a>`,
+	// 	],
 
-		mod: 'gen9',
-		ruleset: ['Min Source Gen = 9', 'Obtainable', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause'],
-	},
-	{
-		name: "[Gen 9] Custom Game",
+	// 	mod: 'gen9',
+	// 	ruleset: ['Min Source Gen = 9', 'Obtainable', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause'],
+	// },
+	// {
+	// 	name: "[Gen 9] Custom Game",
 
-		mod: 'gen9',
-		searchShow: false,
-		debug: true,
-		battle: {trunc: Math.trunc},
-		// no restrictions, for serious (other than team preview)
-		ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
-	},
-	{
-		name: "[Gen 9] Doubles OU",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3710876/">Doubles OU Sample Teams</a>`,
-		],
+	// 	mod: 'gen9',
+	// 	searchShow: false,
+	// 	debug: true,
+	// 	battle: {trunc: Math.trunc},
+	// 	// no restrictions, for serious (other than team preview)
+	// 	ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
+	// },
+	// {
+	// 	name: "[Gen 9] Doubles OU",
+	// 	threads: [
+	// 		`&bullet; <a href="https://www.smogon.com/forums/threads/3710876/">Doubles OU Sample Teams</a>`,
+	// 	],
 
-		mod: 'gen9',
-		gameType: 'doubles',
-		ruleset: ['Standard Doubles'],
-		banlist: ['DUber', 'Shadow Tag'],
-	},
-	{
-		name: "[Gen 9] Doubles Custom Game",
+	// 	mod: 'gen9',
+	// 	gameType: 'doubles',
+	// 	ruleset: ['Standard Doubles'],
+	// 	banlist: ['DUber', 'Shadow Tag'],
+	// },
+	// {
+	// 	name: "[Gen 9] Doubles Custom Game",
 
-		mod: 'gen9',
-		gameType: 'doubles',
-		searchShow: false,
-		battle: {trunc: Math.trunc},
-		debug: true,
-		// no restrictions, for serious (other than team preview)
-		ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
-	},
-	{
-		name: "[Gen 9] National Dex",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3710848/">National Dex Metagame Discussion</a>`,
-		],
+	// 	mod: 'gen9',
+	// 	gameType: 'doubles',
+	// 	searchShow: false,
+	// 	battle: {trunc: Math.trunc},
+	// 	debug: true,
+	// 	// no restrictions, for serious (other than team preview)
+	// 	ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
+	// },
+	// {
+	// 	name: "[Gen 9] National Dex",
+	// 	threads: [
+	// 		`&bullet; <a href="https://www.smogon.com/forums/threads/3710848/">National Dex Metagame Discussion</a>`,
+	// 	],
 
-		mod: 'gen9',
-		ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Clause', 'Species Clause', 'Sleep Clause Mod'],
-		banlist: ['ND Uber', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'King\'s Rock', 'Quick Claw', 'Razor Fang', 'Baton Pass'],
-	},
-	{
-		name: "[Gen 9] National Dex AG",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3672423/">National Dex AG</a>`,
-		],
+	// 	mod: 'gen9',
+	// 	ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Clause', 'Species Clause', 'Sleep Clause Mod'],
+	// 	banlist: ['ND Uber', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'King\'s Rock', 'Quick Claw', 'Razor Fang', 'Baton Pass'],
+	// },
+	// {
+	// 	name: "[Gen 9] National Dex AG",
+	// 	threads: [
+	// 		`&bullet; <a href="https://www.smogon.com/forums/threads/3672423/">National Dex AG</a>`,
+	// 	],
 
-		mod: 'gen9',
-		ruleset: ['Standard NatDex'],
-	},
-	{
-		name: "[Gen 9] Triples",
-		mod: 'gen9',
-		gameType: 'triples',
-		searchShow: false,
-		ruleset: ['Standard Doubles'],
-		banlist: [
-			'Annihilape', 'Arceus', 'Calyrex-Ice', 'Calyrex-Shadow', 'Darkrai', 'Deoxys-Attack', 'Dialga', 'Dialga-Origin', 'Eternatus', 'Flutter Mane',
-			'Giratina', 'Giratina-Origin', 'Groudon', 'Ho-Oh', 'Koraidon', 'Kyogre', 'Kyurem-Black', 'Kyurem-White', 'Lugia', 'Lunala', 'Magearna', 'Mewtwo',
-			'Miraidon', 'Necrozma-Dawn-Wings', 'Necrozma-Dusk-Mane', 'Palkia', 'Palkia-Origin', 'Rayquaza', 'Reshiram', 'Solgaleo', 'Terapagos', 'Urshifu',
-			'Urshifu-Rapid-Strike', 'Zacian', 'Zacian-Crowned', 'Zamazenta', 'Zamazenta-Crowned', 'Zekrom', 'Shadow Tag',
-		],
-	},
-	{
-		name: "[Gen 9] Type Split",
-		desc: `The Physical/Special split is reverted; All non-Status moves are Physical or Special depending on their type, no exceptions.`,
-		mod: 'gen9',
-		searchShow: false,
-		ruleset: ['Standard OMs', 'Sleep Moves Clause', 'Evasion Abilities Clause'],
-		banlist: [
-			'Annihilape', 'Arceus', 'Archaludon', 'Calyrex-Shadow', 'Chi-Yu', 'Darkrai', 'Deoxys-Base', 'Deoxys-Attack', 'Dialga', 'Dialga-Origin', 'Espathra',
-			'Eternatus', 'Flutter Mane', 'Giratina', 'Giratina-Origin', 'Groudon', 'Ho-Oh', 'Iron Bundle', 'Koraidon', 'Kyogre', 'Kyurem-White', 'Landorus-Base',
-			'Lugia', 'Lunala', 'Magearna', 'Mewtwo', 'Miraidon', 'Necrozma-Dawn-Wings', 'Necrozma-Dusk-Mane', 'Palkia', 'Palkia-Origin', 'Rayquaza', 'Regieleki',
-			'Reshiram', 'Shaymin-Sky', 'Sneasler', 'Solgaleo', 'Terapagos', 'Volcarona', 'Zacian-Crowned', 'Zamazenta-Crowned', 'Arena Trap', 'Moody', 'Shadow Tag',
-			'Bright Powder', 'Damp Rock', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects', 'Shed Tail',
-		],
-		onModifyMovePriority: -1000,
-		onModifyMove(move, pokemon, target) {
-			if (move.category === 'Status') return;
-			const specialTypes = ['Dark', 'Dragon', 'Electric', 'Fairy', 'Fire', 'Grass', 'Ice', 'Psychic', 'Water'];
-			if (specialTypes.includes(move.type)) {
-				move.category = 'Special';
-			} else if (move.type === 'Stellar') {
-				move.category = pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true) ? 'Physical' : 'Special';
-			} else {
-				move.category = 'Physical';
-			}
-		},
-	},
+	// 	mod: 'gen9',
+	// 	ruleset: ['Standard NatDex'],
+	// },
+	// {
+	// 	name: "[Gen 9] Triples",
+	// 	mod: 'gen9',
+	// 	gameType: 'triples',
+	// 	searchShow: false,
+	// 	ruleset: ['Standard Doubles'],
+	// 	banlist: [
+	// 		'Annihilape', 'Arceus', 'Calyrex-Ice', 'Calyrex-Shadow', 'Darkrai', 'Deoxys-Attack', 'Dialga', 'Dialga-Origin', 'Eternatus', 'Flutter Mane',
+	// 		'Giratina', 'Giratina-Origin', 'Groudon', 'Ho-Oh', 'Koraidon', 'Kyogre', 'Kyurem-Black', 'Kyurem-White', 'Lugia', 'Lunala', 'Magearna', 'Mewtwo',
+	// 		'Miraidon', 'Necrozma-Dawn-Wings', 'Necrozma-Dusk-Mane', 'Palkia', 'Palkia-Origin', 'Rayquaza', 'Reshiram', 'Solgaleo', 'Terapagos', 'Urshifu',
+	// 		'Urshifu-Rapid-Strike', 'Zacian', 'Zacian-Crowned', 'Zamazenta', 'Zamazenta-Crowned', 'Zekrom', 'Shadow Tag',
+	// 	],
+	// },
+	// {
+	// 	name: "[Gen 9] Type Split",
+	// 	desc: `The Physical/Special split is reverted; All non-Status moves are Physical or Special depending on their type, no exceptions.`,
+	// 	mod: 'gen9',
+	// 	searchShow: false,
+	// 	ruleset: ['Standard OMs', 'Sleep Moves Clause', 'Evasion Abilities Clause'],
+	// 	banlist: [
+	// 		'Annihilape', 'Arceus', 'Archaludon', 'Calyrex-Shadow', 'Chi-Yu', 'Darkrai', 'Deoxys-Base', 'Deoxys-Attack', 'Dialga', 'Dialga-Origin', 'Espathra',
+	// 		'Eternatus', 'Flutter Mane', 'Giratina', 'Giratina-Origin', 'Groudon', 'Ho-Oh', 'Iron Bundle', 'Koraidon', 'Kyogre', 'Kyurem-White', 'Landorus-Base',
+	// 		'Lugia', 'Lunala', 'Magearna', 'Mewtwo', 'Miraidon', 'Necrozma-Dawn-Wings', 'Necrozma-Dusk-Mane', 'Palkia', 'Palkia-Origin', 'Rayquaza', 'Regieleki',
+	// 		'Reshiram', 'Shaymin-Sky', 'Sneasler', 'Solgaleo', 'Terapagos', 'Volcarona', 'Zacian-Crowned', 'Zamazenta-Crowned', 'Arena Trap', 'Moody', 'Shadow Tag',
+	// 		'Bright Powder', 'Damp Rock', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects', 'Shed Tail',
+	// 	],
+	// 	onModifyMovePriority: -1000,
+	// 	onModifyMove(move, pokemon, target) {
+	// 		if (move.category === 'Status') return;
+	// 		const specialTypes = ['Dark', 'Dragon', 'Electric', 'Fairy', 'Fire', 'Grass', 'Ice', 'Psychic', 'Water'];
+	// 		if (specialTypes.includes(move.type)) {
+	// 			move.category = 'Special';
+	// 		} else if (move.type === 'Stellar') {
+	// 			move.category = pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true) ? 'Physical' : 'Special';
+	// 		} else {
+	// 			move.category = 'Physical';
+	// 		}
+	// 	},
+	// },
 	// Please keep these here for testing / debugging
 	{
 		name: "[Gen 8] OU",
@@ -4324,222 +4324,222 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////
 	/////////////// Non-Pet Mod Formats //////////////////
 	///////////////////////////////////////////////////////////////
-	{
-		section: "Non-Pet Mod Formats",
-		column: 3,
-		// name: "nonpetmodformats",
-	},
-	{
-		name: "[Gen 8] Dynamax Meter",
-		mod: 'gen8maxmeter',
-		ruleset: ['Standard'],
-		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass'],
-		onBegin() {
-			for (const side of this.sides) {
-				if (!side.getSideCondition('maxmeter5')) {
-					side.dynamaxUsed = true;
-				}
-			}
-		},
-		onAfterMoveSecondarySelf(source, target, move) {
-			if (!move || !target) return;
-			if (source.side.getSideCondition('maxmeter1') || source.side.getSideCondition('maxmeter2') || source.side.getSideCondition('maxmeter3') || source.side.getSideCondition('maxmeter4') || source.side.getSideCondition('maxmeter5')) return;
-			if (source.hasType(move.type)) {
-				source.side.addSideCondition('maxmeter1');
-			}
-		},
-	},
-	{
-		name: "[Gen 9] Littlest Cup",
-		desc: [
-			"<b>Littlest Cup</b>: A National Dex metagame where only Baby Pokemon are allowed."
-		],
-		threads: [
-			`&bullet; <a href="https://pastebin.com/PtqmRUhG">Littlest Cup VR and Sample Sets</a>`,
-		],
-		mod: 'littlestcup',
-		ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Moves Clause', 'Evasion Items Clause', 'Species Clause', 'Sleep Clause Mod', 'Mega Rayquaza Clause', 'Max Level = 1'],
-		teambuilderFormat: 'National Dex',
-		banlist: ['All Pokemon', 'Belly Drum', 'Huge Power', 'Shadow Tag'],
-		unbanlist: ['Pichu', 'Cleffa', 'Igglybuff', 'Togepi', 'Tyrogue', 'Smoochum', 'Elekid', 'Magby', 'Azurill', 'Wynaut', 'Budew', 'Chingling', 'Bonsly', 'Mime Jr.', 'Happiny', 'Munchlax', 'Riolu', 'Mantyke', 'Toxel'],
-  },
-	{
-		name: "[Gen 9] Littlest Cup (No Tera)",
-		desc: [
-			"<b>Littlest Cup</b>: A National Dex metagame where only Baby Pokemon are allowed."
-		],
-		threads: [
-			`&bullet; <a href="https://pastebin.com/PtqmRUhG">Littlest Cup VR and Sample Sets</a>`,
-		],
-		mod: 'littlestcup',
-		searchShow: false,
-		ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Moves Clause', 'Evasion Items Clause', 'Species Clause', 'Sleep Clause Mod', 'Mega Rayquaza Clause', 'Max Level = 1', 'Terastal Clause'],
-		teambuilderFormat: 'National Dex',
-		banlist: ['All Pokemon', 'Belly Drum', 'Huge Power', 'Shadow Tag'],
-		unbanlist: ['Pichu', 'Cleffa', 'Igglybuff', 'Togepi', 'Tyrogue', 'Smoochum', 'Elekid', 'Magby', 'Azurill', 'Wynaut', 'Budew', 'Chingling', 'Bonsly', 'Mime Jr.', 'Happiny', 'Munchlax', 'Riolu', 'Mantyke', 'Toxel'],
-  },
-	{
-		name: "[Gen 9] Littlest Cup Random Battle",
-		desc: [
-			"<b>Littlest Cup</b>: A National Dex metagame where only Baby Pokemon are allowed."
-		],
-		threads: [
-			`&bullet; <a href="https://pastebin.com/PtqmRUhG">Littlest Cup VR and Sample Sets</a>`,
-		],
-		mod: 'littlestcup',
-		team: 'random',
-		ruleset: ['Data Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Endless Battle Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Species Clause', 'Dynamax Clause', 'Z-Move Clause', 'Max Level = 1'],
-	},
-	{
-		name: "[Gen 6] TPDP Open",
-		mod: 'tpdp',
-		debug: true,
-		desc: `a close approximation of Touhou Puppet Dance Performance`,
-		ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Moves Clause', 'Species Clause', 'Dynamax Clause', 'Data Mod', 'Sleep Clause Mod'],
-		banlist: ['Boundary Trance', 'Dream Shard',
-		'Camouflage', 'Favorable Wind', 'Dead of Night', //evasion
-		'Poison Labyrinth', 'Adverse Wind', //trapping
-		'Moody',
-		'Backup Plan', //baton pass
-		],
-		onValidateTeam(team, format) {
-			/**@type {{[k: string]: true}}*/
-			let speciesTable = {};
-			let allowedTiers = ['TPDP OU', 'TPDP LC'];
-			let natures = ['Red', 'Blue', 'Black', 'Green', 'White'];
-			for (const set of team) {
-				let template = this.dex.species.get(set.species);
-				if (!allowedTiers.includes(template.tier)) {
-					return [set.species + ' is not allowed in TPDP.'];
-				}
-				if (!natures.includes(set.nature)) {
-					return [set.nature + ' is not a valid nature in TPDP. Hint: to set Red, Blue, Black, White, or Green nature, use the Import/Export button.'];
-				}
-			}
-		},
-	},
-	{
-		name: "[Gen 6] TPDP Stylemons",
-		mod: 'tpdp',
-		debug: true,
-		desc: `TPDP Stylemons`,
-		ruleset: ['Standard NatDex', 'Stylemons Move Legality', 'OHKO Clause', 'Evasion Moves Clause', 'Species Clause', 'Dynamax Clause', 'Data Mod', 'Sleep Clause Mod'],
-		banlist: ['Boundary Trance', 'Dream Shard',
-		'Camouflage', 'Favorable Wind', 'Dead of Night', //evasion
-		'Poison Labyrinth', 'Adverse Wind', //trapping
-		'Moody',
-		'Backup Plan', //baton pass
-		],
-		onValidateTeam(team, format) {
-			/**@type {{[k: string]: true}}*/
-			let speciesTable = {};
-			let allowedTiers = ['TPDP OU', 'TPDP LC'];
-			let natures = ['Red', 'Blue', 'Black', 'Green', 'White'];
-			for (const set of team) {
-				let template = this.dex.species.get(set.species);
-				if (!allowedTiers.includes(template.tier)) {
-					return [set.species + ' is not allowed in TPDP.'];
-				}
-				if (!natures.includes(set.nature)) {
-					return [set.nature + ' is not a valid nature in TPDP. Hint: to set Red, Blue, Black, White, or Green nature, use the Import/Export button.'];
-				}
-			}
-		},
-	},
-	{
-		name: "[Gen 6] TPDP Shared Power",
-		mod: 'tpdp',
-		debug: true,
-		desc: `TPDP Shared Power`,
-		ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Moves Clause', 'Species Clause', 'Dynamax Clause', 'Data Mod', 'Sleep Clause Mod'],
-		banlist: ['Boundary Trance', 'Dream Shard',
-		'Camouflage', 'Favorable Wind', 'Dead of Night', //evasion
-		'Poison Labyrinth', 'Adverse Wind', //trapping
-		'Moody',
-		'Backup Plan', //baton pass
-		],
-		onValidateTeam(team, format) {
-			/**@type {{[k: string]: true}}*/
-			let speciesTable = {};
-			let allowedTiers = ['TPDP OU', 'TPDP LC'];
-			let natures = ['Red', 'Blue', 'Black', 'Green', 'White'];
-			for (const set of team) {
-				let template = this.dex.species.get(set.species);
-				if (!allowedTiers.includes(template.tier)) {
-					return [set.species + ' is not allowed in TPDP.'];
-				}
-				if (!natures.includes(set.nature)) {
-					return [set.nature + ' is not a valid nature in TPDP. Hint: to set Red, Blue, Black, White, or Green nature, use the Import/Export button.'];
-				}
-			}
-		},
-		getSharedPower(pokemon) {
-			const sharedPower = new Set<string>();
-			for (const ally of pokemon.side.pokemon) {
-				if (pokemon.battle.ruleTable.isRestricted(`ability:${ally.baseAbility}`)) continue;
-				if (ally.previouslySwitchedIn > 0) {
-					if (pokemon.battle.dex.currentMod !== 'sharedpower' && ['trace', 'mirrorarmor'].includes(ally.baseAbility)) {
-						sharedPower.add('noability');
-						continue;
-					}
-					sharedPower.add(ally.baseAbility);
-				}
-			}
-			sharedPower.delete(pokemon.baseAbility);
-			return sharedPower;
-		},
-		onBeforeSwitchIn(pokemon) {
-			let format = this.format;
-			if (!format.getSharedPower) format = this.dex.formats.get('gen9sharedpower');
-			for (const ability of format.getSharedPower!(pokemon)) {
-				const effect = 'ability:' + ability;
-				pokemon.volatiles[effect] = {id: this.toID(effect), target: pokemon};
-				if (!pokemon.m.abils) pokemon.m.abils = [];
-				if (!pokemon.m.abils.includes(effect)) pokemon.m.abils.push(effect);
-			}
-		},
-		onSwitchInPriority: 2,
-		onSwitchIn(pokemon) {
-			let format = this.format;
-			if (!format.getSharedPower) format = this.dex.formats.get('gen9sharedpower');
-			for (const ability of format.getSharedPower!(pokemon)) {
-				if (ability === 'noability') {
-					this.hint(`Mirror Armor and Trace break in Shared Power formats that don't use Shared Power as a base, so they get removed from non-base users.`);
-				}
-				const effect = 'ability:' + ability;
-				delete pokemon.volatiles[effect];
-				pokemon.addVolatile(effect);
-			}
-		},
-	},
-	{
-		name: "[Gen 6] TPDP Netplay",
-		mod: 'tpdp',
-		debug: true,
-		desc: `a close approximation of Touhou Puppet Dance Performance`,
-		ruleset: ['Obtainable', 'Team Preview', 'Cancel Mod', 'Species Clause', 'Item Clause', 'Adjust Level Down = 50', 'OHKO Clause', 'Evasion Moves Clause', 'Dynamax Clause', 'Data Mod', 'Sleep Clause Mod'],
-		banlist: ['Boundary Trance', 'Dream Shard',
-		'Camouflage', 'Favorable Wind', 'Dead of Night', //evasion
-		'Poison Labyrinth', 'Adverse Wind', //trapping
-		'Moody',
-		'Backup Plan', //baton pass
-		],
-		onValidateTeam(team, format) {
-			/**@type {{[k: string]: true}}*/
-			let speciesTable = {};
-			let allowedTiers = ['TPDP OU', 'TPDP LC'];
-			let natures = ['Red', 'Blue', 'Black', 'Green', 'White'];
-			for (const set of team) {
-				let template = this.dex.species.get(set.species);
-				if (!allowedTiers.includes(template.tier)) {
-					return [set.species + ' is not allowed in TPDP.'];
-				}
-				if (!natures.includes(set.nature)) {
-					return [set.nature + ' is not a valid nature in TPDP. Hint: to set Red, Blue, Black, White, or Green nature, use the Import/Export button.'];
-				}
-			}
-		},
-	},
+	// {
+	// 	section: "Non-Pet Mod Formats",
+	// 	column: 3,
+	// 	// name: "nonpetmodformats",
+	// },
+	// {
+	// 	name: "[Gen 8] Dynamax Meter",
+	// 	mod: 'gen8maxmeter',
+	// 	ruleset: ['Standard'],
+	// 	banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass'],
+	// 	onBegin() {
+	// 		for (const side of this.sides) {
+	// 			if (!side.getSideCondition('maxmeter5')) {
+	// 				side.dynamaxUsed = true;
+	// 			}
+	// 		}
+	// 	},
+	// 	onAfterMoveSecondarySelf(source, target, move) {
+	// 		if (!move || !target) return;
+	// 		if (source.side.getSideCondition('maxmeter1') || source.side.getSideCondition('maxmeter2') || source.side.getSideCondition('maxmeter3') || source.side.getSideCondition('maxmeter4') || source.side.getSideCondition('maxmeter5')) return;
+	// 		if (source.hasType(move.type)) {
+	// 			source.side.addSideCondition('maxmeter1');
+	// 		}
+	// 	},
+	// },
+// 	{
+// 		name: "[Gen 9] Littlest Cup",
+// 		desc: [
+// 			"<b>Littlest Cup</b>: A National Dex metagame where only Baby Pokemon are allowed."
+// 		],
+// 		threads: [
+// 			`&bullet; <a href="https://pastebin.com/PtqmRUhG">Littlest Cup VR and Sample Sets</a>`,
+// 		],
+// 		mod: 'littlestcup',
+// 		ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Moves Clause', 'Evasion Items Clause', 'Species Clause', 'Sleep Clause Mod', 'Mega Rayquaza Clause', 'Max Level = 1'],
+// 		teambuilderFormat: 'National Dex',
+// 		banlist: ['All Pokemon', 'Belly Drum', 'Huge Power', 'Shadow Tag'],
+// 		unbanlist: ['Pichu', 'Cleffa', 'Igglybuff', 'Togepi', 'Tyrogue', 'Smoochum', 'Elekid', 'Magby', 'Azurill', 'Wynaut', 'Budew', 'Chingling', 'Bonsly', 'Mime Jr.', 'Happiny', 'Munchlax', 'Riolu', 'Mantyke', 'Toxel'],
+//   },
+// 	{
+// 		name: "[Gen 9] Littlest Cup (No Tera)",
+// 		desc: [
+// 			"<b>Littlest Cup</b>: A National Dex metagame where only Baby Pokemon are allowed."
+// 		],
+// 		threads: [
+// 			`&bullet; <a href="https://pastebin.com/PtqmRUhG">Littlest Cup VR and Sample Sets</a>`,
+// 		],
+// 		mod: 'littlestcup',
+// 		searchShow: false,
+// 		ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Moves Clause', 'Evasion Items Clause', 'Species Clause', 'Sleep Clause Mod', 'Mega Rayquaza Clause', 'Max Level = 1', 'Terastal Clause'],
+// 		teambuilderFormat: 'National Dex',
+// 		banlist: ['All Pokemon', 'Belly Drum', 'Huge Power', 'Shadow Tag'],
+// 		unbanlist: ['Pichu', 'Cleffa', 'Igglybuff', 'Togepi', 'Tyrogue', 'Smoochum', 'Elekid', 'Magby', 'Azurill', 'Wynaut', 'Budew', 'Chingling', 'Bonsly', 'Mime Jr.', 'Happiny', 'Munchlax', 'Riolu', 'Mantyke', 'Toxel'],
+//   },
+// 	{
+// 		name: "[Gen 9] Littlest Cup Random Battle",
+// 		desc: [
+// 			"<b>Littlest Cup</b>: A National Dex metagame where only Baby Pokemon are allowed."
+// 		],
+// 		threads: [
+// 			`&bullet; <a href="https://pastebin.com/PtqmRUhG">Littlest Cup VR and Sample Sets</a>`,
+// 		],
+// 		mod: 'littlestcup',
+// 		team: 'random',
+// 		ruleset: ['Data Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Endless Battle Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Species Clause', 'Dynamax Clause', 'Z-Move Clause', 'Max Level = 1'],
+// 	},
+	// {
+	// 	name: "[Gen 6] TPDP Open",
+	// 	mod: 'tpdp',
+	// 	debug: true,
+	// 	desc: `a close approximation of Touhou Puppet Dance Performance`,
+	// 	ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Moves Clause', 'Species Clause', 'Dynamax Clause', 'Data Mod', 'Sleep Clause Mod'],
+	// 	banlist: ['Boundary Trance', 'Dream Shard',
+	// 	'Camouflage', 'Favorable Wind', 'Dead of Night', //evasion
+	// 	'Poison Labyrinth', 'Adverse Wind', //trapping
+	// 	'Moody',
+	// 	'Backup Plan', //baton pass
+	// 	],
+	// 	onValidateTeam(team, format) {
+	// 		/**@type {{[k: string]: true}}*/
+	// 		let speciesTable = {};
+	// 		let allowedTiers = ['TPDP OU', 'TPDP LC'];
+	// 		let natures = ['Red', 'Blue', 'Black', 'Green', 'White'];
+	// 		for (const set of team) {
+	// 			let template = this.dex.species.get(set.species);
+	// 			if (!allowedTiers.includes(template.tier)) {
+	// 				return [set.species + ' is not allowed in TPDP.'];
+	// 			}
+	// 			if (!natures.includes(set.nature)) {
+	// 				return [set.nature + ' is not a valid nature in TPDP. Hint: to set Red, Blue, Black, White, or Green nature, use the Import/Export button.'];
+	// 			}
+	// 		}
+	// 	},
+	// },
+	// {
+	// 	name: "[Gen 6] TPDP Stylemons",
+	// 	mod: 'tpdp',
+	// 	debug: true,
+	// 	desc: `TPDP Stylemons`,
+	// 	ruleset: ['Standard NatDex', 'Stylemons Move Legality', 'OHKO Clause', 'Evasion Moves Clause', 'Species Clause', 'Dynamax Clause', 'Data Mod', 'Sleep Clause Mod'],
+	// 	banlist: ['Boundary Trance', 'Dream Shard',
+	// 	'Camouflage', 'Favorable Wind', 'Dead of Night', //evasion
+	// 	'Poison Labyrinth', 'Adverse Wind', //trapping
+	// 	'Moody',
+	// 	'Backup Plan', //baton pass
+	// 	],
+	// 	onValidateTeam(team, format) {
+	// 		/**@type {{[k: string]: true}}*/
+	// 		let speciesTable = {};
+	// 		let allowedTiers = ['TPDP OU', 'TPDP LC'];
+	// 		let natures = ['Red', 'Blue', 'Black', 'Green', 'White'];
+	// 		for (const set of team) {
+	// 			let template = this.dex.species.get(set.species);
+	// 			if (!allowedTiers.includes(template.tier)) {
+	// 				return [set.species + ' is not allowed in TPDP.'];
+	// 			}
+	// 			if (!natures.includes(set.nature)) {
+	// 				return [set.nature + ' is not a valid nature in TPDP. Hint: to set Red, Blue, Black, White, or Green nature, use the Import/Export button.'];
+	// 			}
+	// 		}
+	// 	},
+	// },
+	// {
+	// 	name: "[Gen 6] TPDP Shared Power",
+	// 	mod: 'tpdp',
+	// 	debug: true,
+	// 	desc: `TPDP Shared Power`,
+	// 	ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Moves Clause', 'Species Clause', 'Dynamax Clause', 'Data Mod', 'Sleep Clause Mod'],
+	// 	banlist: ['Boundary Trance', 'Dream Shard',
+	// 	'Camouflage', 'Favorable Wind', 'Dead of Night', //evasion
+	// 	'Poison Labyrinth', 'Adverse Wind', //trapping
+	// 	'Moody',
+	// 	'Backup Plan', //baton pass
+	// 	],
+	// 	onValidateTeam(team, format) {
+	// 		/**@type {{[k: string]: true}}*/
+	// 		let speciesTable = {};
+	// 		let allowedTiers = ['TPDP OU', 'TPDP LC'];
+	// 		let natures = ['Red', 'Blue', 'Black', 'Green', 'White'];
+	// 		for (const set of team) {
+	// 			let template = this.dex.species.get(set.species);
+	// 			if (!allowedTiers.includes(template.tier)) {
+	// 				return [set.species + ' is not allowed in TPDP.'];
+	// 			}
+	// 			if (!natures.includes(set.nature)) {
+	// 				return [set.nature + ' is not a valid nature in TPDP. Hint: to set Red, Blue, Black, White, or Green nature, use the Import/Export button.'];
+	// 			}
+	// 		}
+	// 	},
+	// 	getSharedPower(pokemon) {
+	// 		const sharedPower = new Set<string>();
+	// 		for (const ally of pokemon.side.pokemon) {
+	// 			if (pokemon.battle.ruleTable.isRestricted(`ability:${ally.baseAbility}`)) continue;
+	// 			if (ally.previouslySwitchedIn > 0) {
+	// 				if (pokemon.battle.dex.currentMod !== 'sharedpower' && ['trace', 'mirrorarmor'].includes(ally.baseAbility)) {
+	// 					sharedPower.add('noability');
+	// 					continue;
+	// 				}
+	// 				sharedPower.add(ally.baseAbility);
+	// 			}
+	// 		}
+	// 		sharedPower.delete(pokemon.baseAbility);
+	// 		return sharedPower;
+	// 	},
+	// 	onBeforeSwitchIn(pokemon) {
+	// 		let format = this.format;
+	// 		if (!format.getSharedPower) format = this.dex.formats.get('gen9sharedpower');
+	// 		for (const ability of format.getSharedPower!(pokemon)) {
+	// 			const effect = 'ability:' + ability;
+	// 			pokemon.volatiles[effect] = {id: this.toID(effect), target: pokemon};
+	// 			if (!pokemon.m.abils) pokemon.m.abils = [];
+	// 			if (!pokemon.m.abils.includes(effect)) pokemon.m.abils.push(effect);
+	// 		}
+	// 	},
+	// 	onSwitchInPriority: 2,
+	// 	onSwitchIn(pokemon) {
+	// 		let format = this.format;
+	// 		if (!format.getSharedPower) format = this.dex.formats.get('gen9sharedpower');
+	// 		for (const ability of format.getSharedPower!(pokemon)) {
+	// 			if (ability === 'noability') {
+	// 				this.hint(`Mirror Armor and Trace break in Shared Power formats that don't use Shared Power as a base, so they get removed from non-base users.`);
+	// 			}
+	// 			const effect = 'ability:' + ability;
+	// 			delete pokemon.volatiles[effect];
+	// 			pokemon.addVolatile(effect);
+	// 		}
+	// 	},
+	// },
+	// {
+	// 	name: "[Gen 6] TPDP Netplay",
+	// 	mod: 'tpdp',
+	// 	debug: true,
+	// 	desc: `a close approximation of Touhou Puppet Dance Performance`,
+	// 	ruleset: ['Obtainable', 'Team Preview', 'Cancel Mod', 'Species Clause', 'Item Clause', 'Adjust Level Down = 50', 'OHKO Clause', 'Evasion Moves Clause', 'Dynamax Clause', 'Data Mod', 'Sleep Clause Mod'],
+	// 	banlist: ['Boundary Trance', 'Dream Shard',
+	// 	'Camouflage', 'Favorable Wind', 'Dead of Night', //evasion
+	// 	'Poison Labyrinth', 'Adverse Wind', //trapping
+	// 	'Moody',
+	// 	'Backup Plan', //baton pass
+	// 	],
+	// 	onValidateTeam(team, format) {
+	// 		/**@type {{[k: string]: true}}*/
+	// 		let speciesTable = {};
+	// 		let allowedTiers = ['TPDP OU', 'TPDP LC'];
+	// 		let natures = ['Red', 'Blue', 'Black', 'Green', 'White'];
+	// 		for (const set of team) {
+	// 			let template = this.dex.species.get(set.species);
+	// 			if (!allowedTiers.includes(template.tier)) {
+	// 				return [set.species + ' is not allowed in TPDP.'];
+	// 			}
+	// 			if (!natures.includes(set.nature)) {
+	// 				return [set.nature + ' is not a valid nature in TPDP. Hint: to set Red, Blue, Black, White, or Green nature, use the Import/Export button.'];
+	// 			}
+	// 		}
+	// 	},
+	// },
 	{
 		name: "[Gen 2] VGC 2001",
 		mod: 'gen2doubles',
@@ -4548,34 +4548,34 @@ export const Formats: FormatList = [
 		banlist: [],
 		teambuilderFormat: 'OU',
 	},
-	{
-		name: "[Gen 9] White Tusk",
+	// {
+	// 	name: "[Gen 9] White Tusk",
 
-		mod: 'whitetusk',
-		ruleset: ['Standard', 'Data Mod'],
-		banlist: ['All Pokemon', 'King\'s Rock', 'Baton Pass'],
-		unbanlist: ['Dust Bunnie', 'Rebirb', 'Strummingbird', 'Strummingbird-Viola', 'Strummingbird-Cello', 'Strummingbird-Contrabass', 'Strummingbird-Acoustic', 'Strummingbird-Electric', 'Strummingbird-Bass', 'Xylomist', 'Yeomelt', 'Zoplite', 'Yeoxylo', 'Xylozop', 'Zopyeo', 'Xylyeozop', 'Xylobone', 'Dormirr', 'Pufferfinch', 'Gumbawl', 'Gumbrawl', 'Gumbrawl-Bubble', 'Gumbrawl-Fresh', 'Gnawing Bark', 'Iron Mint', 'Caramilitant', 'Toughfee', 'Gasharmoir', 'Gumbrawl-Gachamech', 'Tartridge', 'Opixsi', 'Pinfrino', 'Leagle', 'Kuadrosin', 'Blite', 'Doctoxin', 'Moosquito', 'Parrox'],
-		onValidateTeam(team, format) {
-			/**@type {{[k: string]: true}} */
-			let speciesTable = {};
-			const combinationTable = ['Xylomist', 'Yeomelt', 'Zoplite', 'Yeoxylo', 'Xylozop', 'Zopyeo', 'Xylyeozop'];
-			let combinationTest = [];
-			for (const set of team) {
-				let template = this.dex.species.get(set.species);
-				console.log(template.name);
-				if (combinationTable.includes(template.name)) {
-					combinationTest.push(template.name);
-				}
-			}
-			if (combinationTest.length > 1) {	//Skip the check if only one was found at most
-				if ((combinationTest.includes('Xylomist') && (combinationTest.includes('Yeoxylo') || combinationTest.includes('Xylozop') || combinationTest.includes('Xylyeozop')))
-					|| (combinationTest.includes('Yeomelt') && (combinationTest.includes('Yeoxylo') || combinationTest.includes('Zopyeo') || combinationTest.includes('Xylyeozop')))
-					|| (combinationTest.includes('Zoplite') && (combinationTest.includes('Xylozop') || combinationTest.includes('Zopyeo') || combinationTest.includes('Xylyeozop')))) {
-					return ['You cannot have XYZ Pokemon with their combined forms.'];
-				}
-			}
-		},
-	},
+	// 	mod: 'whitetusk',
+	// 	ruleset: ['Standard', 'Data Mod'],
+	// 	banlist: ['All Pokemon', 'King\'s Rock', 'Baton Pass'],
+	// 	unbanlist: ['Dust Bunnie', 'Rebirb', 'Strummingbird', 'Strummingbird-Viola', 'Strummingbird-Cello', 'Strummingbird-Contrabass', 'Strummingbird-Acoustic', 'Strummingbird-Electric', 'Strummingbird-Bass', 'Xylomist', 'Yeomelt', 'Zoplite', 'Yeoxylo', 'Xylozop', 'Zopyeo', 'Xylyeozop', 'Xylobone', 'Dormirr', 'Pufferfinch', 'Gumbawl', 'Gumbrawl', 'Gumbrawl-Bubble', 'Gumbrawl-Fresh', 'Gnawing Bark', 'Iron Mint', 'Caramilitant', 'Toughfee', 'Gasharmoir', 'Gumbrawl-Gachamech', 'Tartridge', 'Opixsi', 'Pinfrino', 'Leagle', 'Kuadrosin', 'Blite', 'Doctoxin', 'Moosquito', 'Parrox'],
+	// 	onValidateTeam(team, format) {
+	// 		/**@type {{[k: string]: true}} */
+	// 		let speciesTable = {};
+	// 		const combinationTable = ['Xylomist', 'Yeomelt', 'Zoplite', 'Yeoxylo', 'Xylozop', 'Zopyeo', 'Xylyeozop'];
+	// 		let combinationTest = [];
+	// 		for (const set of team) {
+	// 			let template = this.dex.species.get(set.species);
+	// 			console.log(template.name);
+	// 			if (combinationTable.includes(template.name)) {
+	// 				combinationTest.push(template.name);
+	// 			}
+	// 		}
+	// 		if (combinationTest.length > 1) {	//Skip the check if only one was found at most
+	// 			if ((combinationTest.includes('Xylomist') && (combinationTest.includes('Yeoxylo') || combinationTest.includes('Xylozop') || combinationTest.includes('Xylyeozop')))
+	// 				|| (combinationTest.includes('Yeomelt') && (combinationTest.includes('Yeoxylo') || combinationTest.includes('Zopyeo') || combinationTest.includes('Xylyeozop')))
+	// 				|| (combinationTest.includes('Zoplite') && (combinationTest.includes('Xylozop') || combinationTest.includes('Zopyeo') || combinationTest.includes('Xylyeozop')))) {
+	// 				return ['You cannot have XYZ Pokemon with their combined forms.'];
+	// 			}
+	// 		}
+	// 	},
+	// },
 	{
 		section: "Modern Gen Series",
 		column: 3,

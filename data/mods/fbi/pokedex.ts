@@ -175,14 +175,14 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	pikachu:
 	{
 		inherit: true,
-		types: ["Electr"],
+		types: ["Electric"],
 		baseStats: {hp: 35,atk: 55,def: 30,spa: 50,spd: 40,spe: 90},
 		abilities: {0: "Static"}
 	},
 	raichu:
 	{
 		inherit: true,
-		types: ["Electr"],
+		types: ["Electric"],
 		baseStats: {hp: 60,atk: 90,def: 55,spa: 90,spd: 80,spe: 100},
 		abilities: {0: "Static"}
 	},
@@ -336,14 +336,14 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	venonat:
 	{
 		inherit: true,
-		types: ["Bug", "Psychc"],
+		types: ["Bug", "Psychic"],
 		baseStats: {hp: 60,atk: 55,def: 50,spa: 40,spd: 55,spe: 45},
 		abilities: {0: "Compoundeyes"}
 	},
 	venomoth:
 	{
 		inherit: true,
-		types: ["Bug", "Psychc"],
+		types: ["Bug", "Psychic"],
 		baseStats: {hp: 70,atk: 65,def: 60,spa: 95,spd: 85,spe: 90},
 		abilities: {0: "Shield Dust"}
 	},
@@ -441,21 +441,21 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	abra:
 	{
 		inherit: true,
-		types: ["Psychc"],
+		types: ["Psychic"],
 		baseStats: {hp: 25,atk: 20,def: 15,spa: 105,spd: 55,spe: 90},
 		abilities: {0: "Synchronize", 1: "Inner Focus"}
 	},
 	kadabra:
 	{
 		inherit: true,
-		types: ["Psychc"],
+		types: ["Psychic"],
 		baseStats: {hp: 40,atk: 35,def: 30,spa: 120,spd: 70,spe: 105},
 		abilities: {0: "Synchronize", 1: "Inner Focus"}
 	},
 	alakazam:
 	{
 		inherit: true,
-		types: ["Psychc"],
+		types: ["Psychic"],
 		baseStats: {hp: 55,atk: 50,def: 45,spa: 135,spd: 85,spe: 120},
 		abilities: {0: "Synchronize", 1: "Inner Focus"}
 	},
@@ -553,28 +553,28 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	slowpoke:
 	{
 		inherit: true,
-		types: ["Water", "Psychc"],
+		types: ["Water", "Psychic"],
 		baseStats: {hp: 90,atk: 65,def: 65,spa: 40,spd: 40,spe: 15},
 		abilities: {0: "Oblivious", 1: "Own Tempo"}
 	},
 	slowbro:
 	{
 		inherit: true,
-		types: ["Water", "Psychc"],
+		types: ["Water", "Psychic"],
 		baseStats: {hp: 95,atk: 75,def: 110,spa: 100,spd: 80,spe: 30},
 		abilities: {0: "Oblivious", 1: "Own Tempo"}
 	},
 	magnemite:
 	{
 		inherit: true,
-		types: ["Electr", "Steel"],
+		types: ["Electric", "Steel"],
 		baseStats: {hp: 25,atk: 35,def: 70,spa: 95,spd: 55,spe: 45},
 		abilities: {0: "Magnet Pull", 1: "Sturdy"}
 	},
 	magneton:
 	{
 		inherit: true,
-		types: ["Electr", "Steel"],
+		types: ["Electric", "Steel"],
 		baseStats: {hp: 50,atk: 60,def: 95,spa: 120,spd: 70,spe: 70},
 		abilities: {0: "Magnet Pull", 1: "Sturdy"}
 	},
@@ -672,14 +672,14 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	drowzee:
 	{
 		inherit: true,
-		types: ["Psychc"],
+		types: ["Psychic"],
 		baseStats: {hp: 60,atk: 48,def: 45,spa: 43,spd: 90,spe: 42},
 		abilities: {0: "Insomnia"}
 	},
 	hypno:
 	{
 		inherit: true,
-		types: ["Psychc"],
+		types: ["Psychic"],
 		baseStats: {hp: 85,atk: 73,def: 70,spa: 73,spd: 115,spe: 67},
 		abilities: {0: "Insomnia"}
 	},
@@ -700,28 +700,28 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	voltorb:
 	{
 		inherit: true,
-		types: ["Electr"],
+		types: ["Electric"],
 		baseStats: {hp: 40,atk: 30,def: 50,spa: 55,spd: 55,spe: 100},
 		abilities: {0: "Soundproof", 1: "Static"}
 	},
 	electrode:
 	{
 		inherit: true,
-		types: ["Electr"],
+		types: ["Electric"],
 		baseStats: {hp: 60,atk: 50,def: 70,spa: 80,spd: 80,spe: 140},
 		abilities: {0: "Soundproof", 1: "Static"}
 	},
 	exeggcute:
 	{
 		inherit: true,
-		types: ["Grass", "Psychc"],
+		types: ["Grass", "Psychic"],
 		baseStats: {hp: 60,atk: 40,def: 80,spa: 60,spd: 45,spe: 40},
 		abilities: {0: "Chlorophyll"}
 	},
 	exeggutor:
 	{
 		inherit: true,
-		types: ["Grass", "Psychc"],
+		types: ["Grass", "Psychic"],
 		baseStats: {hp: 95,atk: 95,def: 85,spa: 125,spd: 75,spe: 55},
 		abilities: {0: "Chlorophyll"}
 	},
@@ -847,14 +847,14 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	starmie:
 	{
 		inherit: true,
-		types: ["Water", "Psychc"],
+		types: ["Water", "Psychic"],
 		baseStats: {hp: 60,atk: 75,def: 85,spa: 100,spd: 85,spe: 115},
 		abilities: {0: "Illuminate", 1: "Natural Cure"}
 	},
 	mrmime:
 	{
 		inherit: true,
-		types: ["Psychc", "Fairy"],
+		types: ["Psychic", "Fairy"],
 		baseStats: {hp: 40,atk: 45,def: 65,spa: 100,spd: 120,spe: 90},
 		abilities: {0: "Soundproof"}
 	},
@@ -868,14 +868,14 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	jynx:
 	{
 		inherit: true,
-		types: ["Ice", "Psychc"],
+		types: ["Ice", "Psychic"],
 		baseStats: {hp: 65,atk: 50,def: 35,spa: 115,spd: 95,spe: 95},
 		abilities: {0: "Oblivious"}
 	},
 	electabuzz:
 	{
 		inherit: true,
-		types: ["Electr"],
+		types: ["Electric"],
 		baseStats: {hp: 65,atk: 83,def: 57,spa: 95,spd: 85,spe: 105},
 		abilities: {0: "Static"}
 	},
@@ -945,7 +945,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	jolteon:
 	{
 		inherit: true,
-		types: ["Electr"],
+		types: ["Electric"],
 		baseStats: {hp: 65,atk: 65,def: 60,spa: 110,spd: 95,spe: 130},
 		abilities: {0: "Volt Absorb"}
 	},
@@ -1015,7 +1015,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	zapdos:
 	{
 		inherit: true,
-		types: ["Electr", "Flying"],
+		types: ["Electric", "Flying"],
 		baseStats: {hp: 90,atk: 90,def: 85,spa: 125,spd: 90,spe: 100},
 		abilities: {0: "Pressure"}
 	},
@@ -1050,14 +1050,14 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	mewtwo:
 	{
 		inherit: true,
-		types: ["Psychc"],
+		types: ["Psychic"],
 		baseStats: {hp: 106,atk: 110,def: 90,spa: 154,spd: 90,spe: 130},
 		abilities: {0: "Pressure"}
 	},
 	mew:
 	{
 		inherit: true,
-		types: ["Psychc"],
+		types: ["Psychic"],
 		baseStats: {hp: 100,atk: 100,def: 100,spa: 100,spd: 100,spe: 100},
 		abilities: {0: "Synchronize"}
 	},
@@ -1190,21 +1190,21 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	chinchou:
 	{
 		inherit: true,
-		types: ["Water", "Electr"],
+		types: ["Water", "Electric"],
 		baseStats: {hp: 75,atk: 38,def: 38,spa: 56,spd: 56,spe: 67},
 		abilities: {0: "Volt Absorb", 1: "Illuminate"}
 	},
 	lanturn:
 	{
 		inherit: true,
-		types: ["Water", "Electr"],
+		types: ["Water", "Electric"],
 		baseStats: {hp: 125,atk: 58,def: 58,spa: 76,spd: 76,spe: 67},
 		abilities: {0: "Volt Absorb", 1: "Illuminate"}
 	},
 	pichu:
 	{
 		inherit: true,
-		types: ["Electr"],
+		types: ["Electric"],
 		baseStats: {hp: 20,atk: 40,def: 15,spa: 35,spd: 35,spe: 60},
 		abilities: {0: "Static"}
 	},
@@ -1239,35 +1239,35 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	natu:
 	{
 		inherit: true,
-		types: ["Psychc", "Flying"],
+		types: ["Psychic", "Flying"],
 		baseStats: {hp: 40,atk: 50,def: 45,spa: 70,spd: 45,spe: 70},
 		abilities: {0: "Synchronize", 1: "Early Bird"}
 	},
 	xatu:
 	{
 		inherit: true,
-		types: ["Psychc", "Flying"],
+		types: ["Psychic", "Flying"],
 		baseStats: {hp: 65,atk: 75,def: 70,spa: 95,spd: 70,spe: 95},
 		abilities: {0: "Synchronize", 1: "Early Bird"}
 	},
 	mareep:
 	{
 		inherit: true,
-		types: ["Electr"],
+		types: ["Electric"],
 		baseStats: {hp: 55,atk: 40,def: 40,spa: 65,spd: 45,spe: 35},
 		abilities: {0: "Static"}
 	},
 	flaaffy:
 	{
 		inherit: true,
-		types: ["Electr"],
+		types: ["Electric"],
 		baseStats: {hp: 70,atk: 55,def: 55,spa: 80,spd: 60,spe: 45},
 		abilities: {0: "Static"}
 	},
 	ampharos:
 	{
 		inherit: true,
-		types: ["Electr"],
+		types: ["Electric"],
 		baseStats: {hp: 90,atk: 75,def: 75,spa: 115,spd: 90,spe: 55},
 		abilities: {0: "Static"}
 	},
@@ -1372,7 +1372,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	espeon:
 	{
 		inherit: true,
-		types: ["Psychc"],
+		types: ["Psychic"],
 		baseStats: {hp: 65,atk: 65,def: 60,spa: 130,spd: 95,spe: 110},
 		abilities: {0: "Synchronize"}
 	},
@@ -1393,7 +1393,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	slowking:
 	{
 		inherit: true,
-		types: ["Water", "Psychc"],
+		types: ["Water", "Psychic"],
 		baseStats: {hp: 95,atk: 75,def: 80,spa: 100,spd: 110,spe: 30},
 		abilities: {0: "Oblivious", 1: "Own Tempo"}
 	},
@@ -1407,21 +1407,21 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	unown:
 	{
 		inherit: true,
-		types: ["Psychc"],
+		types: ["Psychic"],
 		baseStats: {hp: 48,atk: 72,def: 48,spa: 72,spd: 48,spe: 48},
 		abilities: {0: "Levitate"}
 	},
 	wobbuffet:
 	{
 		inherit: true,
-		types: ["Psychc"],
+		types: ["Psychic"],
 		baseStats: {hp: 190,atk: 33,def: 58,spa: 33,spd: 58,spe: 33},
 		abilities: {0: "Shadow Tag"}
 	},
 	girafarig:
 	{
 		inherit: true,
-		types: ["Normal", "Psychc"],
+		types: ["Normal", "Psychic"],
 		baseStats: {hp: 70,atk: 80,def: 65,spa: 90,spd: 65,spe: 85},
 		abilities: {0: "Inner Focus", 1: "Early Bird"}
 	},
@@ -1666,14 +1666,14 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	smoochum:
 	{
 		inherit: true,
-		types: ["Ice", "Psychc"],
+		types: ["Ice", "Psychic"],
 		baseStats: {hp: 45,atk: 30,def: 15,spa: 85,spd: 65,spe: 65},
 		abilities: {0: "Oblivious"}
 	},
 	elekid:
 	{
 		inherit: true,
-		types: ["Electr"],
+		types: ["Electric"],
 		baseStats: {hp: 45,atk: 63,def: 37,spa: 65,spd: 55,spe: 95},
 		abilities: {0: "Static"}
 	},
@@ -1701,7 +1701,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	raikou:
 	{
 		inherit: true,
-		types: ["Electr"],
+		types: ["Electric"],
 		baseStats: {hp: 90,atk: 85,def: 75,spa: 115,spd: 100,spe: 115},
 		abilities: {0: "Pressure"}
 	},
@@ -1743,7 +1743,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	lugia:
 	{
 		inherit: true,
-		types: ["Psychc", "Flying"],
+		types: ["Psychic", "Flying"],
 		baseStats: {hp: 106,atk: 90,def: 130,spa: 90,spd: 154,spe: 110},
 		abilities: {0: "Pressure"}
 	},
@@ -1757,7 +1757,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	celebi:
 	{
 		inherit: true,
-		types: ["Psychc", "Grass"],
+		types: ["Psychic", "Grass"],
 		baseStats: {hp: 100,atk: 100,def: 100,spa: 100,spd: 100,spe: 100},
 		abilities: {0: "Natural Cure"}
 	},
