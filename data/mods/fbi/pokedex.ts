@@ -86,7 +86,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		types: ["Bug", "Flying"],
 		baseStats: {hp: 60,atk: 45,def: 50,spa: 80,spd: 80,spe: 90},
-		abilities: {0: "Compoundeyes"}
+		abilities: {0: "Compound Eyes"}
 	},
 	weedle:
 	{
@@ -392,14 +392,14 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	mankey:
 	{
 		inherit: true,
-		types: ["Fight"],
+		types: ["Fighting"],
 		baseStats: {hp: 40,atk: 80,def: 35,spa: 35,spd: 45,spe: 70},
 		abilities: {0: "Vital Spirit"}
 	},
 	primeape:
 	{
 		inherit: true,
-		types: ["Fight"],
+		types: ["Fighting"],
 		baseStats: {hp: 65,atk: 105,def: 60,spa: 60,spd: 70,spe: 95},
 		abilities: {0: "Vital Spirit"}
 	},
@@ -434,7 +434,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	poliwrath:
 	{
 		inherit: true,
-		types: ["Water", "Fight"],
+		types: ["Water", "Fighting"],
 		baseStats: {hp: 90,atk: 85,def: 95,spa: 70,spd: 90,spe: 70},
 		abilities: {0: "Water Absorb", 1: "Damp"}
 	},
@@ -462,21 +462,21 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	machop:
 	{
 		inherit: true,
-		types: ["Fight"],
+		types: ["Fighting"],
 		baseStats: {hp: 70,atk: 80,def: 50,spa: 35,spd: 35,spe: 35},
 		abilities: {0: "Guts"}
 	},
 	machoke:
 	{
 		inherit: true,
-		types: ["Fight"],
+		types: ["Fighting"],
 		baseStats: {hp: 80,atk: 100,def: 70,spa: 50,spd: 60,spe: 45},
 		abilities: {0: "Guts"}
 	},
 	machamp:
 	{
 		inherit: true,
-		types: ["Fight"],
+		types: ["Fighting"],
 		baseStats: {hp: 90,atk: 130,def: 80,spa: 65,spd: 85,spe: 55},
 		abilities: {0: "Guts"}
 	},
@@ -742,14 +742,14 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	hitmonlee:
 	{
 		inherit: true,
-		types: ["Fight"],
+		types: ["Fighting"],
 		baseStats: {hp: 50,atk: 120,def: 53,spa: 35,spd: 110,spe: 87},
 		abilities: {0: "Limber"}
 	},
 	hitmonchan:
 	{
 		inherit: true,
-		types: ["Fight"],
+		types: ["Fighting"],
 		baseStats: {hp: 50,atk: 105,def: 79,spa: 35,spd: 110,spe: 76},
 		abilities: {0: "Keen Eye"}
 	},
@@ -1498,7 +1498,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	heracross:
 	{
 		inherit: true,
-		types: ["Bug", "Fight"],
+		types: ["Bug", "Fighting"],
 		baseStats: {hp: 80,atk: 125,def: 75,spa: 40,spd: 95,spe: 85},
 		abilities: {0: "Swarm", 1: "Guts"}
 	},
@@ -1652,14 +1652,14 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	tyrogue:
 	{
 		inherit: true,
-		types: ["Fight"],
+		types: ["Fighting"],
 		baseStats: {hp: 35,atk: 35,def: 35,spa: 35,spd: 35,spe: 35},
 		abilities: {0: "Guts"}
 	},
 	hitmontop:
 	{
 		inherit: true,
-		types: ["Fight"],
+		types: ["Fighting"],
 		baseStats: {hp: 50,atk: 95,def: 95,spa: 35,spd: 110,spe: 70},
 		abilities: {0: "Intimidate"}
 	},

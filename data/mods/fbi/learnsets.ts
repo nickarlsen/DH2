@@ -3110,7 +3110,120 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
             ],
             crunch: [
                 "3L47"
+            ],
+            waterpulse: [
+                "3M"
+            ],
+            toxic: [
+                "3M"
+            ],
+            hiddenpower: [
+                "3M"
+            ],
+            sunnyday: [
+                "3M"
+            ],
+            icebeam: [
+                "3M"
+            ],
+            blizzard: [
+                "3M"
+            ],
+            protect: [
+                "3M"
+            ],
+            raindance: [
+                "3M"
+            ],
+            frustration: [
+                "3M"
+            ],
+            irontail: [
+                "3M"
+            ],
+            thunderbolt: [
+                "3M"
+            ],
+            thunder: [
+                "3M"
+            ],
+            return: [
+                "3M"
+            ],
+            dig: [
+                "3M"
+            ],
+            doubleteam: [
+                "3M"
+            ],
+            shockwave: [
+                "3M"
+            ],
+            sludgebomb: [
+                "3M"
+            ],
+            aerialace: [
+                "3M"
+            ],
+            facade: [
+                "3M"
+            ],
+            secretpower: [
+                "3M"
+            ],
+            rest: [
+                "3M"
+            ],
+            attract: [
+                "3M"
+            ],
+            thief: [
+                "3M"
+            ],
+            cut: [
+                "3M"
+            ],
+            strength: [
+                "3M"
+            ],
+            rocksmash: [
+                "3M"
+            ],
+            bodyslam: [
+                "3T"
+            ],
+            doubleedge: [
+                "3T"
+            ],
+            counter: [
+                "3T"
+            ],
+            mimic: [
+                "3T"
+            ],
+            substitute: [
+                "3T"
+            ],
+            snore: [
+                "3T"
+            ],
+            endure: [
+                "3T"
+            ],
+            mudslap: [
+                "3T"
+            ],
+            swagger: [
+                "3T"
+            ],
+            sleeptalk: [
+                "3T"
+            ],
+            defensecurl: [
+                "3T"
             ]
+
+
         }
     },
     steelix: {
@@ -4282,6 +4395,117 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
             ],
             horndrill: [
                 "3L47"
+            ],
+            waterpulse: [
+                "3M"
+            ],
+            toxic: [
+                "3M"
+            ],
+            hiddenpower: [
+                "3M"
+            ],
+            sunnyday: [
+                "3M"
+            ],
+            icebeam: [
+                "3M"
+            ],
+            blizzard: [
+                "3M"
+            ],
+            protect: [
+                "3M"
+            ],
+            raindance: [
+                "3M"
+            ],
+            frustration: [
+                "3M"
+            ],
+            irontail: [
+                "3M"
+            ],
+            thunderbolt: [
+                "3M"
+            ],
+            thunder: [
+                "3M"
+            ],
+            return: [
+                "3M"
+            ],
+            dig: [
+                "3M"
+            ],
+            doubleteam: [
+                "3M"
+            ],
+            shockwave: [
+                "3M"
+            ],
+            sludgebomb: [
+                "3M"
+            ],
+            aerialace: [
+                "3M"
+            ],
+            facade: [
+                "3M"
+            ],
+            secretpower: [
+                "3M"
+            ],
+            rest: [
+                "3M"
+            ],
+            attract: [
+                "3M"
+            ],
+            thief: [
+                "3M"
+            ],
+            cut: [
+                "3M"
+            ],
+            strength: [
+                "3M"
+            ],
+            rocksmash: [
+                "3M"
+            ],
+            bodyslam: [
+                "3T"
+            ],
+            doubleedge: [
+                "3T"
+            ],
+            counter: [
+                "3T"
+            ],
+            mimic: [
+                "3T"
+            ],
+            substitute: [
+                "3T"
+            ],
+            snore: [
+                "3T"
+            ],
+            endure: [
+                "3T"
+            ],
+            mudslap: [
+                "3T"
+            ],
+            swagger: [
+                "3T"
+            ],
+            sleeptalk: [
+                "3T"
+            ],
+            defensecurl: [
+                "3T"
             ]
         }
     },
@@ -50949,7 +51173,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
             ]
         }
     },
-    "mr. mime": {
+    "mrmime": {
         inherit: true,
         learnset: {
             barrier: [
@@ -50959,7 +51183,8 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
                 "3L5"
             ],
             substitute: [
-                "3L8"
+                "3L8",
+                "3T"
             ],
             fairywind: [
                 "3L12"
@@ -50968,10 +51193,12 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
                 "3L15"
             ],
             lightscreen: [
-                "3L19"
+                "3L19",
+                "3M"
             ],
             reflect: [
-                "3L19"
+                "3L19",
+                "3M"
             ],
             magicalleaf: [
                 "3L22"
@@ -50992,13 +51219,154 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
                 "3L40"
             ],
             psychic: [
-                "3L43"
+                "3L43",
+                "3M"
             ],
             batonpass: [
                 "3L47"
             ],
             safeguard: [
-                "3L50"
+                "3L50",
+                "3M"
+            ],
+            focuspunch: [
+                "3M"
+            ],
+            calmmind: [
+                "3M"
+            ],
+            toxic: [
+                "3M"
+            ],
+            hiddenpower: [
+                "3M"
+            ],
+            sunnyday: [
+                "3M"
+            ],
+            taunt: [
+                "3M"
+            ],
+            hyperbeam: [
+                "3M"
+            ],
+            protect: [
+                "3M"
+            ],
+            raindance: [
+                "3M"
+            ],
+            frustration: [
+                "3M"
+            ],
+            solarbeam: [
+                "3M"
+            ],
+            thunderbolt: [
+                "3M"
+            ],
+            thunder: [
+                "3M"
+            ],
+            return: [
+                "3M"
+            ],
+            shadowball: [
+                "3M"
+            ],
+            brickbreak: [
+                "3M"
+            ],
+            doubleteam: [
+                "3M"
+            ],
+            shockwave: [
+                "3M"
+            ],
+            torment: [
+                "3M"
+            ],
+            facade: [
+                "3M"
+            ],
+            secretpower: [
+                "3M"
+            ],
+            rest: [
+                "3M"
+            ],
+            attract: [
+                "3M"
+            ],
+            thief: [
+                "3M"
+            ],
+            skillswap: [
+                "3M"
+            ],
+            snatch: [
+                "3M"
+            ],
+            flash: [
+                "3M"
+            ],
+            megapunch: [
+                "3T"
+            ],
+            megakick: [
+                "3T"
+            ],
+            bodyslam: [
+                "3T"
+            ],
+            doubleedge: [
+                "3T"
+            ],
+            counter: [
+                "3T"
+            ],
+            seismictoss: [
+                "3T"
+            ],
+            mimic: [
+                "3T"
+            ],
+            metronome: [
+                "3T"
+            ],
+            dreameater: [
+                "3T"
+            ],
+            thunderwave: [
+                "3T"
+            ],
+            
+            psychup: [
+                "3T"
+            ],
+            snore: [
+                "3T"
+            ],
+            endure: [
+                "3T"
+            ],
+            mudslap: [
+                "3T"
+            ],
+            icepunch: [
+                "3T"
+            ],
+            swagger: [
+                "3T"
+            ],
+            sleeptalk: [
+                "3T"
+            ],
+            thunderpunch: [
+                "3T"
+            ],
+            firepunch: [
+                "3T"
             ]
         }
     },
